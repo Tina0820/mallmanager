@@ -1,7 +1,7 @@
 <template>
   <div class="login-wrap">
      <el-form  class="login-form" label-position="top" label-width="80px">
-         <h2>用户登录</h2>
+         <h2>用户登录123</h2>
       <el-form-item label="用户名">
         <el-input v-model="formData.username"></el-input>
       </el-form-item>
@@ -38,6 +38,8 @@ export default {
                    this.$message.error(meta.msg)
               }
             }
+
+
 //       handleLogin(){
 //           //获取表单数据
 //           //发送请求
